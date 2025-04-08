@@ -1,6 +1,6 @@
 .env
-top_nav_style.css
-styles.css
+top_nav_style.min.css
+styles.min.css
 script.min.js
 correct01.min.js
 
