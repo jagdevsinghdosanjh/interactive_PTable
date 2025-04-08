@@ -50,6 +50,7 @@ h1,h2 {
     cursor: pointer;
     font-size: 25 px;
     font-weight: 300;
+    transform: scale(1.5); 
 }
 
 .element .symbol {
