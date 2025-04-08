@@ -51,6 +51,7 @@ h1,h2 {
     font-size: 25 px;
     font-weight: 300;
     transform: scale(1.5); 
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .element .symbol {
@@ -62,10 +63,10 @@ h1,h2 {
     position: absolute;
     inset-block-start: 2px;
     inset-inline-start: 5px;
-    font-size: 10px
+    font-size: 10px;
 }
 
 .element .name {
     font-size: 10px;
-    font-style: italic
+    font-style: italic;
 }
