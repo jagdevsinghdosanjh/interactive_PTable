@@ -47,8 +47,8 @@ h1,h2 {
 
 .element:hover {
     background-color: #9acd32;
-    cursor: pointer
-    font-size:25px;
+    cursor: pointer;
+    font-size: 25px;
 }
 
 .element .symbol {
