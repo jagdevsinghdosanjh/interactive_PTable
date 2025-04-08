@@ -1,1 +1,69 @@
-body{font-family:Arial,sans-serif;text-align:center;background-color:#f9f9f9;margin:0}h1,h2{margin:20px;color:brown}.main-table{display:grid;grid-template-columns:repeat(18,50px);gap:5px;justify-content:center;margin:20px auto;inline-size:fit-content}.actinide-series,.lanthanide-series{display:grid;grid-template-columns:repeat(15,50px);gap:5px;justify-content:center;margin:10px auto;inline-size:fit-content}.element{display:flex;flex-direction:column;align-items:center;justify-content:center;background-color:#000;border:1px solid #ff0;border-radius:5px;padding:5px;font-size:12px;color:#f5f5f5;inline-size:50px;block-size:50px;position:relative}.element:hover{background-color:#9acd32;cursor:pointer}.element .symbol{font-weight:700;font-size:14px}.element .number{position:absolute;inset-block-start:2px;inset-inline-start:5px;font-size:10px}.element .name{font-size:10px;font-style:italic}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0
+}
+
+h1,h2 {
+    margin: 20px;
+    color: brown
+}
+
+.main-table {
+    display: grid;
+    grid-template-columns: repeat(18, 50px);
+    gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
+    inline-size: fit-content
+}
+
+.actinide-series,
+.lanthanide-series {
+    display: grid;
+    grid-template-columns: repeat(15, 50px);
+    gap: 5px;
+    justify-content: center;
+    margin: 10px auto;
+    inline-size: fit-content
+}
+
+.element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    border: 1px solid #ff0;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    color: #f5f5f5;
+    inline-size: 50px;
+    block-size: 50px;
+    position: relative
+}
+
+.element:hover {
+    background-color: #9acd32;
+    cursor: pointer
+    font-size:25px;
+}
+
+.element .symbol {
+    font-weight: 700;
+    font-size: 14px
+}
+
+.element .number {
+    position: absolute;
+    inset-block-start: 2px;
+    inset-inline-start: 5px;
+    font-size: 10px
+}
+
+.element .name {
+    font-size: 10px;
+    font-style: italic
+}
