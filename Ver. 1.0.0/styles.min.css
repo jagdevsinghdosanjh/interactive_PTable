@@ -1,0 +1,1 @@
+#periodic-table{display:grid;grid-template-columns:repeat(18,50px);gap:5px}.grid-item{inline-size:50px;block-size:50px;text-align:center;border:1px solid #ccc;background-color:#f4f4f4}.grid-item:hover{background-color:#d4edda;cursor:pointer}#feedback{margin-block-start:10px;color:#333}
