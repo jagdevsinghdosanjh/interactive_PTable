@@ -50,7 +50,7 @@ h1,h2 {
     cursor: pointer;
     font-size: 25 px;
     font-weight: 300;
-    transform: scale(2.5); 
+    transform: scale(1.5); 
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
