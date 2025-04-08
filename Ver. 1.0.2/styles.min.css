@@ -49,6 +49,7 @@ h1,h2 {
     background-color: #9acd32;
     cursor: pointer;
     font-size: 25 px;
+    font-weight: 300;
 }
 
 .element .symbol {
